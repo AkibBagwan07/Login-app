@@ -12,7 +12,7 @@ export default function Login() {
       setError("");
       setSubmitted(true);
     } else {
-      setError("invalid username or password");
+      setError("Invalid username or password");
       setSubmitted(false);
     }
   };
